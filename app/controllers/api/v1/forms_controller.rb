@@ -1,4 +1,4 @@
-class Api::V1::FormsController < Api::V1::BaseController
+class Api::V1::FormsController < ApplicationController
 
 
 before_action :verify_request_type  
